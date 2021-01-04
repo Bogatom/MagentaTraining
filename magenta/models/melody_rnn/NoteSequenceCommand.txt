@@ -1,0 +1,3 @@
+cd /magenta/magenta/scripts
+
+python convert_dir_to_note_sequences.py --input_dir=/tmp/melody_rnn/generated --output_file=/tmp/notesequences.tfrecord --resursive

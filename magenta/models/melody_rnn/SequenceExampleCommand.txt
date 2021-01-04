@@ -1,0 +1,3 @@
+cd /magenta/magenta/models/melody_rnn/
+
+python melody_rnn_create_dataset.py --config='attention_rnn' --input=/tmp/notesequences.tfrecord --output_dir=/tmp/melody_rnn/sequence_examples --eval_ratio=0.10
